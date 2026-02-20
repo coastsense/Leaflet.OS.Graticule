@@ -1,0 +1,16 @@
+{
+  "name": "leaflet-os-graticule",
+  "version": "1.0.0",
+  "description": "UK Ordnance Survey style 1km grid squares for Leaflet maps",
+  "main": "L.OSGraticule.js",
+  "peerDependencies": {
+    "leaflet": "^1.0.0",
+    "proj4": "^2.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonshutt/Leaflet.OS.Graticule.git"
+  },
+  "license": "MIT",
+  "keywords": ["leaflet", "ordnance-survey", "graticule", "grid", "osgb36", "epsg-27700"]
+}
