@@ -220,7 +220,7 @@ L.OSGraticule = L.LayerGroup.extend({
       return L.marker(labelPos, {
         interactive: false, clickable: false,
         icon: L.divIcon({
-          iconSize: [0, 0], iconAnchor: [-5, -2],
+          iconSize: [0, 0], iconAnchor: [-5, 25],
           className: 'leaflet-grid-label leaflet-grid-label-y', // Added specific class
           html: '<div style="' + this.options.gridLetterStyle + '">' + labelText + '</div>'
         })
